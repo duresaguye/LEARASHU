@@ -30,7 +30,8 @@
 - The application is an evolving masterpiece with ongoing modifications and tweaks.
 
 ## Team:
-Hats off to Team [@Alpha-Mintamir], [@Firomt], [@Tolegithub7] [@muhammednoorrr], and Eshetu, for turning this vision into a reality! 👏👏
+Hats off to Team [@Alpha-Mintamir](https://github.com/Alpha-Mintamir), [@Firomt](https://github.com/Firomt), [@Tolegithub7](https://github.com/Tolegithub7), [@muhammednoorrr](https://github.com/muhammednoorrr), and Eshetu, for turning this vision into a reality! 👏👏
+
 
 ## Acknowledgments:
 Huge thanks to our instructors for their unwavering support – the cornerstone of our project's success.
