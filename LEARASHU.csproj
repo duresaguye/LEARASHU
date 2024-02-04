@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7FD64238-0B64-45B7-B245-0E813AF9AF9B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LEARASHU</RootNamespace>
+    <AssemblyName>LEARASHU</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="create account step2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="create account step2.Designer.cs">
+      <DependentUpon>create account step2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exporter create account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exporter create account.Designer.cs">
+      <DependentUpon>Exporter create account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farmer Create account page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmer Create account page.Designer.cs">
+      <DependentUpon>Farmer Create account page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farmer Create account Step2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmer Create account Step2.Designer.cs">
+      <DependentUpon>Farmer Create account Step2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farmer Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmer Login Form.Designer.cs">
+      <DependentUpon>Farmer Login Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exporter firstPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exporter firstPage.Designer.cs">
+      <DependentUpon>Exporter firstPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Farmerr First Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmerr First Page.Designer.cs">
+      <DependentUpon>Farmerr First Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LEARASHUDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LEARASHUDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LEARASHUDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LEARASHUDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="main page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main page.Designer.cs">
+      <DependentUpon>main page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exporter Login page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exporter Login page.Designer.cs">
+      <DependentUpon>Exporter Login page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profile.Designer.cs">
+      <DependentUpon>profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="create account step2.resx">
+      <DependentUpon>create account step2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exporter create account.resx">
+      <DependentUpon>Exporter create account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmer Create account page.resx">
+      <DependentUpon>Farmer Create account page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmer Create account Step2.resx">
+      <DependentUpon>Farmer Create account Step2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmer Login Form.resx">
+      <DependentUpon>Farmer Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exporter firstPage.resx">
+      <DependentUpon>Exporter firstPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmerr First Page.resx">
+      <DependentUpon>Farmerr First Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main page.resx">
+      <DependentUpon>main page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exporter Login page.resx">
+      <DependentUpon>Exporter Login page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile.resx">
+      <DependentUpon>profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="LEARASHUDataSet.xsc">
+      <DependentUpon>LEARASHUDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LEARASHUDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LEARASHUDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LEARASHUDataSet.xss">
+      <DependentUpon>LEARASHUDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LEARASHUDataSet1.xsc">
+      <DependentUpon>LEARASHUDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LEARASHUDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LEARASHUDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LEARASHUDataSet1.xss">
+      <DependentUpon>LEARASHUDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

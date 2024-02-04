@@ -1,0 +1,14 @@
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.csproj.AssemblyReference.cache
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.csproj.SuggestedBindingRedirects.cache
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.create_account.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.Farmer_Create_account_page.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.Farmer_First_Page.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.Farmer_Login_Form.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.firstPage.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.Form3.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.mainPage.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.Login_page.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.profile.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.Properties.Resources.resources
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.csproj.GenerateResource.cache
+C:\EDP\Project\Login page\LEARASHU\obj\Release\LEARASHU.csproj.CoreCompileInputs.cache
